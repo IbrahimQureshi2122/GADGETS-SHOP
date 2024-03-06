@@ -1,0 +1,1975 @@
+ /*navbar css start  */
+ .hamza{
+  padding: 20px 4%;
+ }
+ .navbar{
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ }
+ .nav1 img{
+    width: 250px;
+    height: 100%;
+    margin-right: 70px;
+ }
+ .navbar-contant{
+    gap: 10px;
+ }
+ /* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn{
+    color: #0088ff;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu on hover */
+  /* .dropdown:hover .dropdown-content {display: block;} */
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: transparent;} */
+
+
+
+  
+
+  .dropbtn1 {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn1:hover{
+    color: #0088ff;
+  }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+      }
+    
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 1190px;
+    left:  -400px;
+    top: 100%;
+    height: 50vh;
+    border-radius: 30px;
+  }
+  .maindrop2{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 40px;
+  }
+  .down1{
+    line-height: 25px;
+  }
+  .sam a:hover{
+    color: #0088ff;
+  }
+  .down1 b{
+    color: #040447;
+  }
+  .down12 img{
+    width: 200px;
+    border-radius: 15px;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content1 a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown1:hover .dropdown-content1 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown1:hover .dropbtn1 {background-color: transparent;}
+
+
+
+
+
+
+
+  .dropbtn2 {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn2:hover{
+    color: #0088ff;
+  }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+      }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 1190px;
+    left:  -500px;
+    top: 100%;
+    height: 50vh;
+  }
+  .maindrop{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+     padding-top: 20px;
+  }
+  .drop1{
+    border: 1px solid;
+    height: 35vh;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .drop1 img{
+    width: 100px;
+    margin-top: 30px;
+  }
+  .down1{
+    color: #101058;
+  }
+
+  .drop-button button{
+    height: 6vh;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+  }
+  .drop-button button:hover{
+    background-color: #040447;
+  }
+
+
+  .drop2{
+    border: 1px solid;
+    height: 35vh;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .drop2 img{
+    width: 100px;
+    margin-top: 30px;
+  }
+  .drop2-button button{
+    height: 6vh;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+  }
+  .drop2-button button:hover{
+    background-color: #040447;
+  }
+
+  .drop3{
+    border: 1px solid;
+    height: 35vh;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .drop3 img{
+    width: 100px;
+    margin-top: 30px;
+  }
+  .drop3-button button{
+    height: 6vh;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+  }
+  .drop3-button button:hover{
+    background-color: #040447;
+  }
+
+  .drop4{
+    border: 1px solid;
+    height: 35vh;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .drop4 img{
+    width: 100px;
+    margin-top: 30px;
+  }
+  .drop4-button button{
+    height: 6vh;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+  }
+  .drop4-button button:hover{
+    background-color: #040447;
+  }
+
+  .drop5{
+    border: 1px solid;
+    height: 35vh;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .drop5 img{
+    width: 100px;
+    margin-top: 30px;
+  }
+  .drop5-button button{
+    height: 6vh;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0088ff;
+    border: none;
+  }
+  .drop5-button button:hover{
+    background-color: #040447;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content2 a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown2:hover .dropbtn2 {background-color: transparent;}
+
+
+
+
+
+  .dropbtn3 {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn3:hover{
+    color: #0088ff;
+  }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown3 {
+        position: relative;
+        display: inline-block;
+      }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content3{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  .samul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content3 a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content3 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown3:hover .dropdown-content3 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown3:hover .dropbtn3 {background-color: transparent;}
+
+
+
+
+
+  .dropbtn4 {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn4:hover{
+    color: #0088ff;
+  }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown4 {
+        position: relative;
+        display: inline-block;
+      }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content4{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content4 a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown4:hover .dropdown-content4 {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown4:hover .dropbtn4 {background-color: transparent;}
+
+  .search-bar input{
+    border-radius: 20px;
+    height: 6vh;
+    width: 180px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    border: none;
+    padding: 10px;
+  }
+  .icon{
+    font-size: 20px;
+    background-color: rgb(236, 229, 229);
+    border-radius: 50px;
+    width: 40px;
+    padding: 5px;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .icon2{
+    font-size: 20px;
+    background-color: rgb(236, 229, 229);
+    border-radius: 50px;
+    width: 40px;
+    padding: 5px;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+/* navbar css end */
+
+/* Slider css start */
+
+  .contant{
+    background-image: url(images/back.jpg);
+    border-radius: 30px;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px;
+  }
+
+  .contant1{
+    font-size: 50px;
+    color: white;
+    padding: 10%;
+    font-family: bold;
+  }
+  /* .block, .block2{
+    display: block;
+  } */
+  .contant2{
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .contant3 a{
+    background-color: #0088ff;
+    border-radius: 50px;
+    width: 30%;
+    height: 8vh;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  .contant3 a:hover{
+    background-color: #ebebeb;
+    color: black;
+  }
+  .contant3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 40px;
+  }
+ .contant3 i{
+  border: 1px solid;
+  border: none;
+  width: 60px;
+  height: 10vh;
+  font-size: 15px;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #040447;
+ }
+ .contant3 i:hover{
+  background-color: #0088ff;
+  color: white;
+ }
+  .colume{
+    margin-left: 80px;
+  }
+  * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Slider css end */
+
+/* Product-row css start */
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 15px;
+}
+.products img{
+    border-radius: 150px;
+    font-size: 10px;
+}
+
+.picture1 button, .picture2 button, .picture3 button, .picture4 button, .picture5 button{
+   border-radius: 50px;
+   height: 8vh;
+   width: 170px;
+   border: none;
+   background-color: rgb(223, 223, 223);
+   margin-top: -15px;
+   font-size: 15px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.picture1:hover button, .picture2:hover button, .picture3:hover button, .picture4:hover button, .picture5:hover button{
+  background-color: #032644;
+  transition: 0.5s;
+  color: white;
+} 
+.picture1:hover, .picture2:hover, .picture3:hover, .picture4:hover, .picture5:hover{
+    margin-top: -15px;
+  } 
+.picture1, .picture2, .picture3, .picture4, .picture5{
+   text-align: center;
+}
+
+/* product-row css end */
+
+/* product list css start */
+.row{
+    display: flex;
+    gap: -50px;
+}
+.colume-pic1{
+    background-image: url(images/colume-pic.jpg);
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+   flex-direction: column;
+   padding: 30px 20px;
+   border-radius: 25px;
+   gap: 30px;
+   height: 650px;
+    margin: 60px;
+}
+.col{
+    font-size: 15px;
+    color: white;
+    margin-top: 150px;
+}
+.col-1{
+    font-size: 60px;
+    color: white;
+    font-family: "Roboto Slab";
+}
+.block-1{
+    display: block;
+}
+.col-2{
+    font-size: 15px;
+    color: white;
+}
+
+
+
+.col-3{
+    margin-left: -390px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #ffffff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 30px;
+    
+  }
+  
+  .blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0505A9;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+
+  }
+  .blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0505A9;
+    border-radius: 30px;
+  }
+  .blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 0.2s;
+    border-radius: 30px;
+  }
+  .blob-btn:hover {
+    color: #FFFFFF;
+    border-radius: 30px;
+  }
+  .blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+  }
+  .blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: #ffffff;
+  }
+  .blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+  }
+  .blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #383852;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+  }
+  @supports (filter: url("#goo")) {
+    .blob-btn__blob {
+      transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+  }
+  .blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s;
+  }
+  .blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+  }
+  .blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+  }
+  .blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+  }
+  .blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+  }
+  @supports (filter: url("#goo")) {
+    .blob-btn:hover .blob-btn__blob {
+      transform: translateZ(0) scale(1.4);
+    }
+  }
+
+
+
+
+
+
+
+
+  .colume-pic2{
+    background-image: url(images/colume-pic2.jpg);
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+   flex-direction: column;
+   padding: 30px 20px;
+   border-radius: 25px;
+   gap: 30px;
+   height: 650px;
+    margin: 60px;
+}
+.col{
+    font-size: 15px;
+    color: white;
+    margin-top: 150px;
+}
+.col-1{
+    font-size: 60px;
+    color: white;
+    font-family: "Roboto Slab";
+}
+.block-1{
+    display: block;
+}
+.col-2{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.col-3{
+    margin-left: -320px;
+  }
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #ffffff;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  .buttons {
+    /* margin-top: 20px; */
+    text-align: center;
+    border-radius: 30px;
+    /* margin-left: 30px; */
+  }
+  
+  .blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+  }
+  .blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 0.2s;
+    border-radius: 30px;
+  }
+  .blob-btn:hover {
+    color: #FFFFFF;
+    border-radius: 30px;
+  }
+  .blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+  }
+  .blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: #ffffff;
+  }
+  .blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+  }
+  .blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #040447;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+  }
+  @supports (filter: url("#goo")) {
+    .blob-btn__blob {
+      transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+  }
+  .blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s;
+  }
+  .blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+  }
+  .blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+  }
+  .blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+  }
+  .blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+  }
+  @supports (filter: url("#goo")) {
+    .blob-btn:hover .blob-btn__blob {
+      transform: translateZ(0) scale(1.4);
+    }
+  }
+
+
+  /* product list css end */
+
+  /* Add to cart css */
+  .productlist1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .product1{
+    border: 1px solid lightgray;
+    height: 60vh;
+    width: 270px;
+    border-radius: 30px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 25px;
+  }
+  .watch1 img{
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+  }
+  .watch1{
+    position: relative; 
+  }
+  .watch1 button{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    border: none;
+    background-color:#0088ff;
+    height: 7vh;
+    width: 150px;
+    border-radius: 20px;
+    display: none;
+    transition: 2s ease;
+  }
+  .watch1:hover button{
+    display: block;
+    transform: trans;
+  }
+
+ 
+  .watch-contant{
+    text-align: center;
+  }
+  .watch-contant a{
+    color: black;
+    text-decoration: none;
+  }
+  .watch-contant a:hover{
+    color: #0088ff;
+  }
+  .ratting{
+    color: rgb(255, 166, 0);
+    font-size: 15px;
+  }
+  .watch-contant2{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+
+
+
+  .productlist2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+  }
+  .product2{
+    border: 1px solid lightgray;
+    height: 60vh;
+    width: 270px;
+    border-radius: 30px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px; 
+  }
+  .iphone14 img{
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .iphone14{
+    position: relative; 
+  }
+  .iphone14 button{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    border: none;
+    background-color:#0088ff;
+    height: 7vh;
+    width: 150px;
+    border-radius: 20px;
+    display: none;
+    transition: 2s ease;
+  }
+  .iphone14:hover button{
+    display: block;
+    transform: trans;
+  }
+ 
+  .iphone-contant{
+    text-align: center;
+  }
+  .iphone-contant a{
+    color: black;
+    text-decoration: none;
+  }
+  .iphone-contant a:hover{
+    color: #0088ff;
+  }
+  .iphone-contant2{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+
+  .productlist3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+  }
+  .product3{
+    border: 1px solid lightgray;
+    height: 60vh;
+    width: 270px;
+    border-radius: 30px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+  }
+  .blackwatch img{
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+  }
+  .blackwatch{
+    position: relative; 
+  }
+  .blackwatch button{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    border: none;
+    background-color:#0088ff;
+    height: 7vh;
+    width: 150px;
+    border-radius: 20px;
+    display: none;
+    transition: 2s ease;
+  }
+  .blackwatch:hover button{
+    display: block;
+    transform: trans;
+  }
+ 
+  .black-contant{
+    text-align: center;
+  }
+  .black-contant a{
+    color: black;
+    text-decoration: none;
+  }
+  .black-contant a:hover{
+    color: #0088ff;
+  }
+  .black-contant2{
+    text-align: center;
+    margin-top: 10px;
+  }
+/* add to cart css end  */
+
+  /* button css start*/
+.wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  padding: 30px;
+}
+.wrapper2{
+  border: 1px solid;
+  width: 23%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0088ff;
+  border-radius: 40px;
+  border: none;
+}
+.wrapper2 a{
+  color: white;
+  text-decoration: none;
+}
+.wrapper2:hover{
+  background-color: #040447;
+}
+/* button css end*/
+
+
+/* picture and content css start */
+.main-div{
+  background-image: url(images/BACKGROUND.jpg);
+  margin: 1% 3%;
+  border-radius: 30px;
+  display: flex;
+  height: 100vh;
+  width: 1280px;
+}
+.colume1{
+  padding-left: 90px;
+  padding-top: 100px;
+}
+.john-1{
+  padding-top: 30px;
+  padding-left: 0px;
+}
+.john-1 button{
+  background-color: #040447;
+  color: white;
+  width: 25%;
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+}
+.john-2{
+  font-size: 50px;
+  padding-top: 30px ;
+}
+.blo{
+  display: block;
+  color: #0088ff;
+}
+.john-3{
+  color: rgba(2, 37, 84, .8);
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.john-4{
+  padding-top: 30px;
+  padding-left: 0px;
+}
+.john-4 button{
+  background-color:#0088ff;
+  color: white;
+  width: 35%;
+  height: 8vh;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+}
+.john-4 button:hover{
+  background-color: #040447;
+}
+
+.colume2 img{
+  width: 90%;
+  padding-top: 30px;
+}
+/* picture and content css end */
+
+.latest-news{
+  display: flex;
+  gap: 490px;
+  flex-direction: row;
+  padding : 50px 20px;
+}
+.latest-1{
+  font-size: 40px;
+}
+.news{
+  color: #0088ff;
+}
+.latest-2{
+  font-size: 20px;
+}
+.latest-3 button{
+  height: 10vh;
+  width: 160px;
+  font-size: 18px;
+  border-radius: 40px;
+  border: 0.5px solid #0088ff;
+  background-color: white;
+}
+.latest-3 button:hover{
+  background-color:#040447;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  color: #333;
+  text-align: center;
+  background: #222;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+main h1 {
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  position: relative;
+}
+.wrapper:before, .wrapper:after {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 60px;
+ 
+}
+.wrapper:before {
+  left: 0;
+  background: linear-gradient(90deg, #222, transparent);
+}
+.wrapper:after {
+  right: 0;
+  background: linear-gradient(-90deg, #222, transparent);
+}
+
+.items {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+}
+.items.active {
+  cursor: grab;
+}
+
+.item {
+  display: inline-block;
+  margin-left: 20px;
+  user-select: none;
+  background: tomato;
+  width: 500px;
+  height: 300px;
+  color: #222;
+  font-size: 33px;
+  line-height: 130px;
+  border-radius: 30px;
+}
+.item:last-child {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .item {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .item {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    margin-left: -20px;
+  }
+
+  .item {
+    width: 20%;
+  }
+} */
+ 
+/* slick slider css */
+.banner{
+  display: flex;
+}
+.main-banner img, .main-banner2 img, .main-banner3 img, .main-banner4 img, .main-banner5 img{
+  height: 260px;
+  padding: 15px;
+  border-radius: 30px;
+}
+.main-banner01 a{
+  color: #040447;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px;
+  text-decoration: none;
+}
+.main-banner001{
+  font-size: 15px;
+  color: #0088ff;
+  padding: 10px;
+}
+.main-banner02 a{
+  color: #040447;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px;
+  text-decoration: none;
+}
+.main-banner002{
+  font-size: 15px;
+  color: #0088ff;
+  padding: 10px;
+}
+.main-banner03 a{
+  color: #040447;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px;
+  text-decoration: none;
+}
+.main-banner003{
+  font-size: 15px;
+  color: #0088ff;
+  padding: 10px;
+}
+.main-banner04 a{
+  color: #040447;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px;
+  text-decoration: none;
+}
+.main-banner004{
+  font-size: 15px;
+  color: #0088ff;
+  padding: 10px;
+}
+.main-banner05 a{
+  color: #040447;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px;
+  text-decoration: none;
+}
+.main-banner005{
+  font-size: 15px;
+  color: #0088ff;
+  padding: 10px;
+}
+/* slick slider css end */
+
+/* sletter css start */
+.main-sletter{
+  background-image: url(images/sletter-background-pic.jpg);
+  height: 250px;
+  border-radius: 50px;
+}
+.sletter-1{
+  font-size: 50px;
+  color: white;
+  padding: 60px;
+}
+.slet{
+  color: #0088ff;
+}
+.sletter-2{
+  font-size: 17px;
+  color: #a8a0a0;
+  padding: 60px;
+  margin-top: -110px;
+}
+.sletter-3{
+  padding: 60px;
+  margin-top: -120px;
+  margin-left: 50%;
+  padding: 0px;
+  display: flex;
+}
+.sletter-3 input{
+  height: 8vh;
+  width: 70%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(255 255 255 / 6%);
+}
+.sletter-3 button{
+  border-radius: 20px;
+  width: 22%;
+  border: none;
+  background-color: #0088ff;
+  color: white;
+}
+.sletter-3 button:hover{
+  background-color: white;
+  color: black;
+}
+/* sletter css end*/
+
+
+
+/* footer css start */
+
+
+.footertop{
+  background-color: #eff5fc;
+  height: 500px;
+  border-radius: 30px;
+  display: flex;
+  gap: 60px;
+}
+.top-1 img{
+  width: 250px;
+  padding: 0px;
+}
+.top-1{
+  padding: 80px;
+  line-height: 25px;
+}
+.top-2{
+   
+  padding: 10px;
+}
+.top-3{
+  padding: 10px;
+}
+.top-4{
+  color: #0088ff;
+  display: flex;
+  gap: 10px;
+}
+.icon1{
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 8vh;
+}
+.icon1:hover{
+  color: white;
+  background-color: #0088ff;
+}
+.main-top{
+  color: #040447;
+  line-height: 40px;
+  margin-top: 100px;
+}
+.main-top b{
+  font-size: 25px;
+}
+.main-top1 a{
+  text-decoration: none;
+  color: rgb(0 0 0 / 50%);
+}
+.main-top1 a:hover{
+  color:#0088ff;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+.main-top2{
+  color: #040447;
+  line-height: 40px;
+  margin-top: 100px;
+  
+}
+.main-top2 b{
+  font-size: 25px;
+}
+.main-top02 a{
+  text-decoration: none;
+  color: rgb(0 0 0 / 50%);
+}
+.main-top02 a:hover{
+  color:#0088ff;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+.main-top3{
+  color: #040447;
+  line-height: 40px;
+  margin-top: 100px;
+   
+}
+.main-top3 b{
+  font-size: 25px;
+}
+.main-top03 a{
+  text-decoration: none;
+  color: rgb(0 0 0 / 50%);
+}
+.main-top03 a:hover{
+  color:#0088ff;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+.main-top4{
+  color: #040447;
+  line-height: 40px;
+  margin-top: 100px;
+   
+}
+.main-top4 b{
+  font-size: 25px;
+}
+.main-top04 a{
+  text-decoration: none;
+  color: rgb(0 0 0 / 50%);
+}
+.main-top04 a:hover{
+  color:#0088ff;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+/* footer css end */
+
+.end-contant{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.end-contant1{
+  color: rgb(0 0 0 / 50%);
+}
+.end-contant2 img{
+  width: 300px;
+}
+
+
+
+/* top button css */
+
+#myBtn {
+  display: flex !important; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 40px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(65, 84, 255); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 20px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 35px; /* Increase font size */
+  width: 60px;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#myBtn:hover {
+  background-color: #7A7A7A; /* Add a dark-grey background on hover */
+  margin-bottom: 5px;
+  transition: 0s ease;
+}
+
+
+/* top button css end*/
+ 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+  .dropbtn4, .dropbtn2, .dropbtn3, .picture1{
+    display: none;
+  }
+  .dropdown-content1{
+    height: 150vh;
+  }
+  .search-bar input{
+    height: 15vh;
+  }
+  .icon, .icon2{
+    height: 8vh;
+  }
+  .colume{
+    margin-left: 0;
+  }
+  .contant3 a{
+    width: 50%;
+  }
+  .row{
+    margin: -30px;
+  }
+  .blob-btn{
+    margin-left: 80px;
+  }
+  .productlist1, .productlist2, .productlist3{
+    gap: 20px;
+  }
+  .product1, .product2, .product3{
+    height: 80vh;
+  }
+  .main-div{
+    width: 950px;
+    height: 150vh;
+  }
+  .colume2 img{
+    width: 100%;
+    padding-top: 150px;
+  }
+  .john-1 button{
+    width: 30%;
+    border-radius: 0;
+  }
+  .john-2{
+    font-size: 60px;
+  }
+  .footertop{
+    gap: 10px;
+  }
+  .mybtn{
+    right: 100px;
+  }
+}
+@media screen and (max-width: 768px){
+  .nav1 img{
+    margin-right: 0px;
+  }
+  .search-bar input{
+    height: 10vh;
+  }
+  .icon, .icon2{
+    padding: 10px;
+  }
+  .contant3{
+    margin-left: 40px;
+  }
+  .contant3 a{
+    width: 200%
+  }
+  .blob-btn{
+    display: block;
+  }
+   .buttons .button{
+     display: block;
+  }
+  .main-div{
+    height: 180vh;
+    width: 700px;
+  }
+  .john-1 button{
+    width: 60%;
+  }
+  .john-4 button{
+    width: 55%;
+  }
+  .latest-news{
+    gap: 40px;
+  }
+  .sletter-1{
+    font-size: 40px;
+  }
+  .sletter-2{
+    font-size: 15px;
+  }
+  .sletter-3 input{
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .sletter-3{
+    margin-left: 60%;
+  }
+  .sletter-3 button{
+    width: 30%;
+  }
+  .main-top4 b{
+    display: block;
+  }
+  .footertop{
+    margin-left: -70px;
+    width: 120%;
+  }
+}
+@media screen and (max-width: 425px){
+  .contant{
+    display: flow-root;
+  }
+  .mam img{
+    width: 330px;
+  }
+  .slideshow-container{
+    margin-left: -30px;
+    margin-top: 30px;
+  }
+  .contant1{
+    font-size: 50px;
+    padding: 0px;
+  }
+  .contant3{
+    margin-left: 0px;
+  }
+  .contant3 a{
+    height: 15vh;
+  }
+  .contant3 i{
+    display: none;
+  }
+  .products{
+    display: flow-root;
+    margin-top: -30px;
+  }
+  .picture2 button, .picture3 button, .picture4 button, .picture5 button{
+    height: 15vh;
+  }
+  .picture2, .picture3, .picture4, .picture5{
+    margin-top: 20px;
+  }
+  .row{
+    display: flow-root;
+  }
+  .colume-pic1{
+    width: 75%;
+  }
+  .colume-pic2{
+    width: 75%;
+  }
+  .blob-btn{
+    margin-left: 350px;
+  }
+  .productlist1{
+    display: none;
+  }
+  .productlist2{
+    display: flow-root;
+    padding: 50px;
+  }
+  .product2{
+    height: 150vh;
+    margin-top: 30px;
+  }
+  .productlist3{
+    display: flow-root;
+    padding: 50px;
+  }
+  .product3{
+    height: 150vh;
+    margin-top: 30px;
+  }
+  .wrapper{
+    margin-left: -190px;
+    width: 200%;
+  }
+  .wrapper2{
+    height: 18vh;
+  }
+  .main-div{
+    height: 320vh;
+    display: flow-root;
+    width: 400px;
+  }
+  .colume2 img{
+    width: 80%;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .john-1 button{
+    height: 15vh;
+    border-radius: 60px;
+  }
+  .john-2{
+    text-align: center;
+    font-size: 40px;
+    margin-left: -100px;
+  }
+  .john-3{
+    text-align: center;
+    margin-left: -90px;
+    font-size: 13px;
+    line-height: normal;
+  }
+  .john-4 button{
+    height: 12vh;
+  }
+  .latest-news{
+    display: flow-root;
+    text-align: center;
+  }
+  .latest-3 button{
+    height: 15vh;
+    margin-top: 30px;
+  }
+  .banner {
+    display: none !important;
+  }
+  .sletter-3{
+    display: none;
+  }
+  .main-sletter{
+    text-align: center;
+  }
+  .footertop{
+    height: 1900px;
+    display: flow-root;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .main-top, .main-top02, .main-top03, .main-top04{
+    margin-left: 20px;
+  }
+  .main-top b, .main-top02 b, .main-top03 b, .main-top04 b{
+    margin-left: 30px;
+    margin-top: -80px;
+  }
+  .top-4{
+    margin-left: 50px;
+  }
+  
+}

@@ -1,0 +1,147 @@
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+// let isDown = false;
+// let startX;
+// let scrollLeft;
+// const slider = document.querySelector('.items');
+
+// const end = () => {
+// 	isDown = false;
+//   slider.classList.remove('active');
+// }
+
+// const start = (e) => {
+//   isDown = true;
+//   slider.classList.add('active');
+//   startX = e.pageX || e.touches[0].pageX - slider.offsetLeft;
+//   scrollLeft = slider.scrollLeft;	
+// }
+
+// const move = (e) => {
+// 	if(!isDown) return;
+
+//   e.preventDefault();
+//   const x = e.pageX || e.touches[0].pageX - slider.offsetLeft;
+//   const dist = (x - startX);
+//   slider.scrollLeft = scrollLeft - dist;
+// }
+
+// (() => {
+// 	slider.addEventListener('mousedown', start);
+// 	slider.addEventListener('touchstart', start);
+
+// 	slider.addEventListener('mousemove', move);
+// 	slider.addEventListener('touchmove', move);
+
+// 	slider.addEventListener('mouseleave', end);
+// 	slider.addEventListener('mouseup', end);
+// 	slider.addEventListener('touchend', end);
+// })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  $('.banner').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+    $('.banner').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+  });
+
+
+
+
+
+
+
+
+    // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+ 
