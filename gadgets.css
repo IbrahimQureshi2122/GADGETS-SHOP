@@ -1973,5 +1973,6 @@ main h1 {
   }
   .end-contant{
     display: flow-root;
+    text-align: center;
   }
 }
