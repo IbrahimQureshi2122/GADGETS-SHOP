@@ -209,7 +209,9 @@
   .drop-button button:hover{
     background-color: #040447;
   }
-
+.mySlides img{
+  width: 400px;
+}
 
   .drop2{
     border: 1px solid;
@@ -627,6 +629,7 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 
 @keyframes fade {
   from {opacity: .4} 
@@ -1778,8 +1781,14 @@ main h1 {
   }
 }
 @media screen and (max-width: 768px){
+  .navbar{
+    gap: 40px;
+  }
   .nav1 img{
     margin-right: 0px;
+  }
+  .banner{
+    display: none !important;
   }
   .search-bar input{
     height: 10vh;
@@ -1787,11 +1796,22 @@ main h1 {
   .icon, .icon2{
     padding: 10px;
   }
+  .contant1{
+    font-size: 30px;
+    padding: 20%;
+  }
   .contant3{
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .contant3 a{
-    width: 200%
+    width: 150px;
+  }
+  .picture2 button, .picture3 button, .picture4 button, .picture5 button{
+    height: 15vh;
+  }
+  .products{
+    display: grid;
+    grid-template-columns: auto auto;
   }
   .blob-btn{
     display: block;
@@ -1799,12 +1819,27 @@ main h1 {
    .buttons .button{
      display: block;
   }
+  .product1, .product2, .product3{
+    height: 150vh;
+  }
+  .productlist1, .productlist2{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .productlist3{
+    display: none;
+  }
+  .blob-btn{
+    display: none;
+  }
   .main-div{
-    height: 180vh;
+    height: 370vh;
     width: 700px;
   }
   .john-1 button{
     width: 60%;
+    height: 10vh;
+    border-radius: 10px;
   }
   .john-4 button{
     width: 55%;
@@ -1834,7 +1869,13 @@ main h1 {
   }
   .footertop{
     margin-left: -70px;
-    width: 120%;
+    width: 110%;
+  }
+  #myBtn{
+    right: 100px;
+  }
+  .main-top4{
+    display: none;
   }
 }
 @media screen and (max-width: 425px){
@@ -1858,7 +1899,7 @@ main h1 {
   .contant3 a{
     height: 15vh;
   }
-  .contant3 i{
+  .contant3 i, .icon, .icon2, .search-bar{
     display: none;
   }
   .products{
@@ -1876,9 +1917,14 @@ main h1 {
   }
   .colume-pic1{
     width: 75%;
+    margin: 0;
+    margin-left: 60px;
   }
   .colume-pic2{
     width: 75%;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 30px;
   }
   .blob-btn{
     margin-left: 350px;
@@ -1974,5 +2020,97 @@ main h1 {
   .end-contant{
     display: flow-root;
     text-align: center;
+  }
+  .mybtn{
+    display: none;
+  }
+  #myBtn{
+    right: 210px;
+  }
+}
+@media screen and (max-width: 320px){
+  .search-bar, .icon, .icon2, .dropbtn1, .numbertext{
+    display: none;
+  }
+  .contant{
+    width: 290px;
+  }
+  .contant3{
+    display: flow-root;
+  }
+  .contant3 a{
+    width: 150px;
+  }
+  .slideshow-container img{
+    width: 250px;
+  }
+  .contant1{
+    font-size: 40px;
+  }
+  .colume-pic1{
+    width: 80%;
+    margin-left: 40px;
+    height: 650px;
+  }
+  .colume-pic2{
+    width: 80%;
+    margin-left: 40px;
+    height: 650px;
+  }
+  .col-1{
+    font-size: 40px;
+  }
+  #myBtn{
+    right: 110px;
+  }
+  .products{
+    margin-left: 0px;
+  }
+  .picture2 button, .picture3 button, .picture4 button, .picture5 button{
+    margin-left: 10px;
+  }
+  .productlist2, .productlist3{
+    padding: 20px;
+  }
+  .wrapper2{
+    width: 40%;
+    margin-left: 100px;
+  }
+  .main-div{
+    width: 300px;
+  }
+  .john-4 button{
+    width: 75%;
+  }
+  .latest-news{
+    padding-left: 10px;
+    line-height: 35px;
+  }
+  .main-sletter{
+    width: 100%;
+  }
+  .sletter-1{
+    font-size: 35px;
+  }
+  .sletter-2{
+    font-size: 20px;
+  }
+  .footertop{
+    width: 97%;
+    margin-left: 5px;
+  }
+  .icon1{
+    height: 15vh;
+    margin-left: 10px;
+  }
+  .top-1{
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .mySlides{
+    width: 200px;
+  }
+  .dropdown{
+    display: none;
   }
 }
